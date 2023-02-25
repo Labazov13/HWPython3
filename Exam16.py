@@ -10,7 +10,7 @@ from random import randint
 
 countNumbers=int(input("Введите количество чисел: "))
 
-list_1=[randint(0,11) for i in range(countNumbers)]
+list_1=[randint(0,15) for i in range(countNumbers)]
 print(list_1)
 searchNumber=int(input("Введите искомое число: "))
 count=0
